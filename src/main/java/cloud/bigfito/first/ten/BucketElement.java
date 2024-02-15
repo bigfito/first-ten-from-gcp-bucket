@@ -2,14 +2,15 @@ package cloud.bigfito.first.ten;
 
 /**
  * @author Adolfo Orozco - bigfito@gmail.com
- * This inner class is meant to model an object from the storage bucket
+ * This class is meant to model an object from a Cloud Storage Bucket from GCP
  */
 public class BucketElement {
 
     // Filename of file object from GCP bucket
-    String bucketFilename;
+    private String bucketFilename;
+    
     // Size of file object from GCP bucket
-    Long bucketFilesize;
+    private Long bucketFilesize;
 
     /* Constructor of class */
     public BucketElement(String bucketFilename, Long bucketFilesize){
