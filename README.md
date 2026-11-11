@@ -4,3 +4,7 @@ This java application reads the content of an specified GCP storage bucket, then
 
 GCP Cloud Storage Bucket
 https://storage.googleapis.com/storage/v1/b/bigfito-data-engineer-programming-challenge/o
+
+## License
+
+Licensed under the [MIT License](LICENSE).
